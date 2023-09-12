@@ -1,0 +1,233 @@
+# Blender MTL File: 'scena1.blend'
+# Material Count: 21
+
+newmtl brack_NONE.009
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.000000 0.010993
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd /home/jorge/Documents/school/FI_MUNI/pv112/cvika/courses/PV112/template/downloaded/budova1/building2/texteur/w2.png
+
+newmtl brack_NONE.019
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.000000 0.010993
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd /home/jorge/Documents/school/FI_MUNI/pv112/cvika/courses/PV112/template/downloaded/budova1/building2/texteur/w2.png
+
+newmtl brack_NONE.030
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.000000 0.010993
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd /home/jorge/Documents/school/FI_MUNI/pv112/cvika/courses/PV112/template/downloaded/budova1/building2/texteur/w2.png
+
+newmtl brack_NONE.041
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.000000 0.010993
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd /home/jorge/Documents/school/FI_MUNI/pv112/cvika/courses/PV112/template/downloaded/budova1/building2/texteur/w2.png
+
+newmtl brack_NONE.052
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.000000 0.010993
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd /home/jorge/Documents/school/FI_MUNI/pv112/cvika/courses/PV112/template/downloaded/budova1/building2/texteur/w2.png
+
+newmtl brack_NONE.063
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.000000 0.010993
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd /home/jorge/Documents/school/FI_MUNI/pv112/cvika/courses/PV112/template/downloaded/budova1/building2/texteur/w2.png
+
+newmtl brack_NONE.074
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.000000 0.010993
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd /home/jorge/Documents/school/FI_MUNI/pv112/cvika/courses/PV112/template/downloaded/budova1/building2/texteur/w2.png
+
+newmtl w2.009
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.083814 0.000000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd /home/jorge/Documents/school/FI_MUNI/pv112/cvika/courses/PV112/template/downloaded/budova1/building2/texteur/w2.png
+
+newmtl w2.019
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.083814 0.000000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd /home/jorge/Documents/school/FI_MUNI/pv112/cvika/courses/PV112/template/downloaded/budova1/building2/texteur/w2.png
+
+newmtl w2.030
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.083814 0.000000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd /home/jorge/Documents/school/FI_MUNI/pv112/cvika/courses/PV112/template/downloaded/budova1/building2/texteur/w2.png
+
+newmtl w2.041
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.083814 0.000000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd /home/jorge/Documents/school/FI_MUNI/pv112/cvika/courses/PV112/template/downloaded/budova1/building2/texteur/w2.png
+
+newmtl w2.052
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.083814 0.000000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd /home/jorge/Documents/school/FI_MUNI/pv112/cvika/courses/PV112/template/downloaded/budova1/building2/texteur/w2.png
+
+newmtl w2.063
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.083814 0.000000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd /home/jorge/Documents/school/FI_MUNI/pv112/cvika/courses/PV112/template/downloaded/budova1/building2/texteur/w2.png
+
+newmtl w2.074
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.083814 0.000000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd /home/jorge/Documents/school/FI_MUNI/pv112/cvika/courses/PV112/template/downloaded/budova1/building2/texteur/w2.png
+
+newmtl wf.009
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd /home/jorge/Documents/school/FI_MUNI/pv112/cvika/courses/PV112/template/downloaded/budova1/building2/texteur/w2.png
+
+newmtl wf.019
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd /home/jorge/Documents/school/FI_MUNI/pv112/cvika/courses/PV112/template/downloaded/budova1/building2/texteur/w2.png
+
+newmtl wf.030
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd /home/jorge/Documents/school/FI_MUNI/pv112/cvika/courses/PV112/template/downloaded/budova1/building2/texteur/w2.png
+
+newmtl wf.041
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd /home/jorge/Documents/school/FI_MUNI/pv112/cvika/courses/PV112/template/downloaded/budova1/building2/texteur/w2.png
+
+newmtl wf.052
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd /home/jorge/Documents/school/FI_MUNI/pv112/cvika/courses/PV112/template/downloaded/budova1/building2/texteur/w2.png
+
+newmtl wf.063
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd /home/jorge/Documents/school/FI_MUNI/pv112/cvika/courses/PV112/template/downloaded/budova1/building2/texteur/w2.png
+
+newmtl wf.074
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd /home/jorge/Documents/school/FI_MUNI/pv112/cvika/courses/PV112/template/downloaded/budova1/building2/texteur/w2.png

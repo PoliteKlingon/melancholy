@@ -1,0 +1,109 @@
+Detecting compiler hash for triplet x64-linux...
+The following packages will be built and installed:
+  * egl-registry[core]:x64-linux -> 2021-11-23
+    glad[core,loader]:x64-linux -> 0.1.34#3
+    glfw3[core]:x64-linux -> 3.3.6
+    glm[core]:x64-linux -> 0.9.9.8#1
+    gtest[core]:x64-linux -> 1.11.0#3
+    imgui[core,glfw-binding,opengl3-binding]:x64-linux -> 1.87
+    lodepng[core]:x64-linux -> 2021-12-04#1
+  * opengl-registry[core]:x64-linux -> 2021-11-17
+    stb[core]:x64-linux -> 2020-09-14#1
+    tinyobjloader[core]:x64-linux -> 2.0.0-rc2#2
+    toml11[core]:x64-linux -> 3.7.0
+  * vcpkg-cmake[core]:x64-linux -> 2022-01-19
+  * vcpkg-cmake-config[core]:x64-linux -> 2022-01-30
+Additional packages (*) will be modified to complete this operation.
+Restored 13 packages from /home/jorge/.cache/vcpkg/archives in 88.91 ms. Use --debug to see more details.
+Starting package 1/13: vcpkg-cmake-config:x64-linux
+Installing package vcpkg-cmake-config[core]:x64-linux...
+Elapsed time for package vcpkg-cmake-config:x64-linux: 580.2 us
+Starting package 2/13: vcpkg-cmake:x64-linux
+Installing package vcpkg-cmake[core]:x64-linux...
+Elapsed time for package vcpkg-cmake:x64-linux: 754.3 us
+Starting package 3/13: egl-registry:x64-linux
+Installing package egl-registry[core]:x64-linux...
+Elapsed time for package egl-registry:x64-linux: 2.102 ms
+Starting package 4/13: opengl-registry:x64-linux
+Installing package opengl-registry[core]:x64-linux...
+Elapsed time for package opengl-registry:x64-linux: 11.69 ms
+Starting package 5/13: glad:x64-linux
+Installing package glad[core,loader]:x64-linux...
+Elapsed time for package glad:x64-linux: 4.181 ms
+Starting package 6/13: glfw3:x64-linux
+Installing package glfw3[core]:x64-linux...
+Elapsed time for package glfw3:x64-linux: 6.716 ms
+Starting package 7/13: glm:x64-linux
+Installing package glm[core]:x64-linux...
+Elapsed time for package glm:x64-linux: 24.41 ms
+Starting package 8/13: gtest:x64-linux
+Installing package gtest[core]:x64-linux...
+Elapsed time for package gtest:x64-linux: 19.8 ms
+Starting package 9/13: imgui:x64-linux
+Installing package imgui[core,glfw-binding,opengl3-binding]:x64-linux...
+Elapsed time for package imgui:x64-linux: 12.71 ms
+Starting package 10/13: lodepng:x64-linux
+Installing package lodepng[core]:x64-linux...
+Elapsed time for package lodepng:x64-linux: 4.838 ms
+Starting package 11/13: stb:x64-linux
+Installing package stb[core]:x64-linux...
+Elapsed time for package stb:x64-linux: 10.05 ms
+Starting package 12/13: tinyobjloader:x64-linux
+Installing package tinyobjloader[core]:x64-linux...
+Elapsed time for package tinyobjloader:x64-linux: 5.312 ms
+Starting package 13/13: toml11:x64-linux
+Installing package toml11[core]:x64-linux...
+Elapsed time for package toml11:x64-linux: 3.212 ms
+
+Total elapsed time: 468 ms
+
+The package glad provides CMake targets:
+
+    find_package(glad CONFIG REQUIRED)
+    target_link_libraries(main PRIVATE glad::glad)
+
+The package glfw3 provides CMake targets:
+
+    find_package(glfw3 CONFIG REQUIRED)
+    target_link_libraries(main PRIVATE glfw)
+
+The package glm provides CMake targets:
+
+    find_package(glm CONFIG REQUIRED)
+    target_link_libraries(main PRIVATE glm::glm)
+
+The package gtest provides CMake targets:
+
+    find_package(GTest CONFIG REQUIRED)
+    target_link_libraries(main PRIVATE GTest::gmock GTest::gtest GTest::gmock_main GTest::gtest_main)
+
+The package imgui provides CMake targets:
+
+    find_package(imgui CONFIG REQUIRED)
+    target_link_libraries(main PRIVATE imgui::imgui)
+
+The package lodepng provides CMake targets:
+
+    # C API
+    find_package(lodepng-c CONFIG REQUIRED)
+    target_link_libraries(main PRIVATE lodepng-c)
+
+    # C++ API
+    find_package(lodepng CONFIG REQUIRED)
+    target_link_libraries(main PRIVATE lodepng)
+
+The package stb is header only and can be used from CMake via:
+
+    find_path(STB_INCLUDE_DIRS "stb.h")
+    target_include_directories(main PRIVATE ${STB_INCLUDE_DIRS})
+
+The package tinyobjloader provides CMake targets:
+
+    find_package(tinyobjloader CONFIG REQUIRED)
+    target_link_libraries(main PRIVATE tinyobjloader::tinyobjloader)
+
+The package toml11 provides CMake targets:
+
+    find_package(toml11 CONFIG REQUIRED)
+    target_link_libraries(main PRIVATE toml11::toml11)
+

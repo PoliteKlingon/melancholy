@@ -1,0 +1,13 @@
+# Blender MTL File: 'scena.blend'
+# Material Count: 1
+
+newmtl 10061_Wall_SG_V1
+Ns 10.000005
+Ka 1.000000 1.000000 1.000000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd /home/jorge/Documents/school/FI_MUNI/pv112/cvika/courses/PV112/template/downloaded/wall/10061_Wall_SG_V2_L3.123c0306aae0-f0e4-4727-ae29-042686d997e3/10061_Wall_SG_V1_Diffuse.jpg

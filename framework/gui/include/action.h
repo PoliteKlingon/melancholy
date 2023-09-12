@@ -1,0 +1,14 @@
+enum action {
+    FORWARD, 
+    STOP_FORWARD,
+    BACKWARD,
+    STOP_BACKWARD,
+    LEFT,
+    STOP_LEFT,
+    RIGHT,
+    STOP_RIGHT,
+    SPRINT,
+    STOP_SPRINT,
+    CRUNCH,
+    STOP_CRUNCH
+};

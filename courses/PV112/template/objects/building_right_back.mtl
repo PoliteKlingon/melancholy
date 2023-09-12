@@ -1,0 +1,224 @@
+# Blender MTL File: 'scena.blend'
+# Material Count: 21
+
+newmtl None.001
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.014667 0.012449 0.012166
+Ks 0.800000 0.800000 0.800000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+
+newmtl None.002
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.014667 0.012449 0.012166
+Ks 0.800000 0.800000 0.800000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+
+newmtl None.003
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.014667 0.012449 0.012166
+Ks 0.800000 0.800000 0.800000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+
+newmtl col_besi_peggangan
+Ns 96.078421
+Ka 1.000000 1.000000 1.000000
+Kd 0.044455 0.044455 0.044455
+Ks 0.200000 0.200000 0.200000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd /home/jorge/Documents/school/FI_MUNI/pv112/cvika/courses/PV112/template/images/black_matt.jpg
+
+newmtl col_besi_peggangan.001
+Ns 96.078421
+Ka 1.000000 1.000000 1.000000
+Kd 0.044455 0.044455 0.044455
+Ks 0.200000 0.200000 0.200000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd /home/jorge/Documents/school/FI_MUNI/pv112/cvika/courses/PV112/template/images/black_matt.jpg
+
+newmtl col_besi_peggangan.002
+Ns 96.078421
+Ka 1.000000 1.000000 1.000000
+Kd 0.044455 0.044455 0.044455
+Ks 0.200000 0.200000 0.200000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd /home/jorge/Documents/school/FI_MUNI/pv112/cvika/courses/PV112/template/images/black_matt.jpg
+
+newmtl col_jendela_building_2_2
+Ns 96.078421
+Ka 1.000000 1.000000 1.000000
+Kd 0.457530 0.430800 0.430800
+Ks 0.200000 0.200000 0.200000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl col_jendela_building_2_2.001
+Ns 96.078421
+Ka 1.000000 1.000000 1.000000
+Kd 0.457530 0.430800 0.430800
+Ks 0.200000 0.200000 0.200000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl col_jendela_building_2_2.002
+Ns 96.078421
+Ka 1.000000 1.000000 1.000000
+Kd 0.457530 0.430800 0.430800
+Ks 0.200000 0.200000 0.200000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl col_jendela_building_3
+Ns 96.078421
+Ka 1.000000 1.000000 1.000000
+Kd 0.018848 0.018071 0.015963
+Ks 0.200000 0.200000 0.200000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl col_jendela_building_3.001
+Ns 96.078421
+Ka 1.000000 1.000000 1.000000
+Kd 0.018848 0.018071 0.015963
+Ks 0.200000 0.200000 0.200000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl col_jendela_building_3.002
+Ns 96.078421
+Ka 1.000000 1.000000 1.000000
+Kd 0.018848 0.018071 0.015963
+Ks 0.200000 0.200000 0.200000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl uv_bangunan_ats
+Ns 96.078421
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.200000 0.200000 0.200000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd /home/jorge/Documents/school/FI_MUNI/pv112/cvika/courses/PV112/template/downloaded/building3/Building_1/Texturizer/tex_besi_2.jpg
+
+newmtl uv_bangunan_ats.001
+Ns 96.078421
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.200000 0.200000 0.200000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd /home/jorge/Documents/school/FI_MUNI/pv112/cvika/courses/PV112/template/downloaded/building3/Building_1/Texturizer/tex_besi_2.jpg
+
+newmtl uv_bangunan_ats.002
+Ns 96.078421
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.200000 0.200000 0.200000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd /home/jorge/Documents/school/FI_MUNI/pv112/cvika/courses/PV112/template/downloaded/building3/Building_1/Texturizer/tex_besi_2.jpg
+
+newmtl uv_bata_bangunan
+Ns 96.078421
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd -s 10.000000 10.000000 1.000000 /home/jorge/Documents/school/FI_MUNI/pv112/cvika/courses/PV112/template/downloaded/building3/Building_1/Texturizer/wall_2.jpg
+
+newmtl uv_bata_bangunan.001
+Ns 96.078421
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd -s 10.000000 10.000000 1.000000 /home/jorge/Documents/school/FI_MUNI/pv112/cvika/courses/PV112/template/downloaded/building3/Building_1/Texturizer/wall_2.jpg
+
+newmtl uv_bata_bangunan.002
+Ns 96.078421
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd -s 10.000000 10.000000 1.000000 /home/jorge/Documents/school/FI_MUNI/pv112/cvika/courses/PV112/template/downloaded/building3/Building_1/Texturizer/wall_2.jpg
+
+newmtl uv_bata_bangunan_wall.jpg
+Ns 96.078421
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd /home/jorge/Documents/school/FI_MUNI/pv112/cvika/courses/PV112/template/images/bricks.jpg
+
+newmtl uv_bata_bangunan_wall.jpg.001
+Ns 96.078421
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd /home/jorge/Documents/school/FI_MUNI/pv112/cvika/courses/PV112/template/images/bricks.jpg
+
+newmtl uv_bata_bangunan_wall.jpg.002
+Ns 96.078421
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd /home/jorge/Documents/school/FI_MUNI/pv112/cvika/courses/PV112/template/images/bricks.jpg

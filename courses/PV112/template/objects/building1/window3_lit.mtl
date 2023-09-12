@@ -1,0 +1,79 @@
+# Blender MTL File: 'scena1.blend'
+# Material Count: 7
+
+newmtl window3.035
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd /home/jorge/Documents/school/FI_MUNI/pv112/cvika/courses/PV112/template/downloaded/budova1/building2/texteur/window3.png
+
+newmtl window3.036
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd /home/jorge/Documents/school/FI_MUNI/pv112/cvika/courses/PV112/template/downloaded/budova1/building2/texteur/window3.png
+
+newmtl window3.037
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd /home/jorge/Documents/school/FI_MUNI/pv112/cvika/courses/PV112/template/downloaded/budova1/building2/texteur/window3.png
+
+newmtl window3.038
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd /home/jorge/Documents/school/FI_MUNI/pv112/cvika/courses/PV112/template/downloaded/budova1/building2/texteur/window3.png
+
+newmtl window3.039
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd /home/jorge/Documents/school/FI_MUNI/pv112/cvika/courses/PV112/template/downloaded/budova1/building2/texteur/window3.png
+
+newmtl window3.040
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd /home/jorge/Documents/school/FI_MUNI/pv112/cvika/courses/PV112/template/downloaded/budova1/building2/texteur/window3.png
+
+newmtl window3.041
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd /home/jorge/Documents/school/FI_MUNI/pv112/cvika/courses/PV112/template/downloaded/budova1/building2/texteur/window3.png

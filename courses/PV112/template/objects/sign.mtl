@@ -1,0 +1,24 @@
+# Blender MTL File: 'scena.blend'
+# Material Count: 2
+
+newmtl 13920_Wall_Street
+Ns 52.000003
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.450000 0.450000 0.450000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd /home/jorge/Documents/school/FI_MUNI/pv112/cvika/courses/PV112/template/downloaded/nazev_ulice/Wall_Street_street_sign_on_post_v1_L3.12fc27d7ce-dde4-4352-90c4-e130eca031d3/13920_Wall_Street_diffuse.jpg
+
+newmtl 13920_Wall_Street.003
+Ns 52.000003
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.450000 0.450000 0.450000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd /home/jorge/Documents/school/FI_MUNI/pv112/cvika/courses/PV112/template/downloaded/nazev_ulice/Wall_Street_street_sign_on_post_v1_L3.12fc27d7ce-dde4-4352-90c4-e130eca031d3/13920_Wall_Street_diffuse.jpg

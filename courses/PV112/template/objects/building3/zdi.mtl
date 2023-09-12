@@ -1,0 +1,101 @@
+# Blender MTL File: 'scena.blend'
+# Material Count: 9
+
+newmtl uv_bangunan_ats.003
+Ns 96.078421
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.200000 0.200000 0.200000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd /home/jorge/Documents/school/FI_MUNI/pv112/cvika/courses/PV112/template/downloaded/building3_1/Building_1/Texturizer/tex_besi_2.jpg
+
+newmtl uv_bangunan_ats.004
+Ns 96.078421
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.200000 0.200000 0.200000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd /home/jorge/Documents/school/FI_MUNI/pv112/cvika/courses/PV112/template/downloaded/building3_1/Building_1/Texturizer/tex_besi_2.jpg
+
+newmtl uv_bangunan_ats.005
+Ns 96.078421
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.200000 0.200000 0.200000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd /home/jorge/Documents/school/FI_MUNI/pv112/cvika/courses/PV112/template/downloaded/building3_1/Building_1/Texturizer/tex_besi_2.jpg
+
+newmtl uv_bata_bangunan.003
+Ns 96.078421
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd -s 10.000000 10.000000 1.000000 /home/jorge/Documents/school/FI_MUNI/pv112/cvika/courses/PV112/template/downloaded/building3_1/Building_1/Texturizer/wall.jpg
+
+newmtl uv_bata_bangunan.004
+Ns 96.078421
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd -s 10.000000 10.000000 1.000000 /home/jorge/Documents/school/FI_MUNI/pv112/cvika/courses/PV112/template/downloaded/building3_1/Building_1/Texturizer/wall.jpg
+
+newmtl uv_bata_bangunan.005
+Ns 96.078421
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd -s 10.000000 10.000000 1.000000 /home/jorge/Documents/school/FI_MUNI/pv112/cvika/courses/PV112/template/downloaded/building3_1/Building_1/Texturizer/wall.jpg
+
+newmtl uv_bata_bangunan_wall.jpg.003
+Ns 96.078421
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd /home/jorge/Documents/school/FI_MUNI/pv112/cvika/courses/PV112/template/downloaded/building3_1/Building_1/Texturizer/wall.jpg
+
+newmtl uv_bata_bangunan_wall.jpg.004
+Ns 96.078421
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd /home/jorge/Documents/school/FI_MUNI/pv112/cvika/courses/PV112/template/downloaded/building3_1/Building_1/Texturizer/wall.jpg
+
+newmtl uv_bata_bangunan_wall.jpg.005
+Ns 96.078421
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd /home/jorge/Documents/school/FI_MUNI/pv112/cvika/courses/PV112/template/downloaded/building3_1/Building_1/Texturizer/wall.jpg

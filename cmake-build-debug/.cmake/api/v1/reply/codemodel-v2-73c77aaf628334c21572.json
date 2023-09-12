@@ -1,0 +1,217 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						3,
+						4,
+						5,
+						6,
+						7
+					],
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "courses/PV112",
+					"childIndexes" : 
+					[
+						2
+					],
+					"jsonFile" : "directory-courses.PV112-Debug-04ba1861afc9f5c2e23e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "courses/PV112"
+				},
+				{
+					"build" : "courses/PV112/lecture_01",
+					"jsonFile" : "directory-courses.PV112.lecture_01-Debug-04b4944376545a90d485.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "courses/PV112/lecture_01",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "framework/pv112",
+					"jsonFile" : "directory-framework.pv112-Debug-9aef9a24c9efbdeaa924.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "framework/pv112",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "framework/geometry",
+					"jsonFile" : "directory-framework.geometry-Debug-18d92da3c4329d85b12b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "framework/geometry",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "framework/gui",
+					"jsonFile" : "directory-framework.gui-Debug-fcda3a01b32f37076941.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "framework/gui",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "framework/core",
+					"jsonFile" : "directory-framework.core-Debug-ddfdd5fc5406e08c75c3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "framework/core",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "framework/glm",
+					"jsonFile" : "directory-framework.glm-Debug-dc0ba8e174c3facf2345.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "framework/glm",
+					"targetIndexes" : 
+					[
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					],
+					"name" : "ComputerGraphicsFramework",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 6,
+					"id" : "CORE_MODULE::@03a3214d4d97b2505c38",
+					"jsonFile" : "target-CORE_MODULE-Debug-34b92b38ac0eda68a98b.json",
+					"name" : "CORE_MODULE",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "GEOMETRY_MODULE::@0427da057047a9e64904",
+					"jsonFile" : "target-GEOMETRY_MODULE-Debug-2dffeef309bf1e6db368.json",
+					"name" : "GEOMETRY_MODULE",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "GLM_MODULE::@6f3e9f5a1d77e24efa0b",
+					"jsonFile" : "target-GLM_MODULE-Debug-3d0fba6de5ba57e759fb.json",
+					"name" : "GLM_MODULE",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "GUI_MODULE::@0fbfe7d627f7bc62651e",
+					"jsonFile" : "target-GUI_MODULE-Debug-614b3e8ce863c315efaf.json",
+					"name" : "GUI_MODULE",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "PV112_MODULE::@beace442085c91862981",
+					"jsonFile" : "target-PV112_MODULE-Debug-a3e8a63719ffb2d00a8b.json",
+					"name" : "PV112_MODULE",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "PV112_lecture_01::@635d5eec76aca7277401",
+					"jsonFile" : "target-PV112_lecture_01-Debug-4b7068a51753644426e4.json",
+					"name" : "PV112_lecture_01",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/jorge/Documents/school/FI_MUNI/pv112/cvika/cmake-build-debug",
+		"source" : "/home/jorge/Documents/school/FI_MUNI/pv112/cvika"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

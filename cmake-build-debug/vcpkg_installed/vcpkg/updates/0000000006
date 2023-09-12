@@ -1,0 +1,9 @@
+Package: opengl-registry
+Version: 2021-11-17
+Depends: egl-registry
+Architecture: x64-linux
+Multi-Arch: same
+Abi: ee160c50b9d692019dcbdb63a12d3b0b74e0f41c226afebb7d275d8772f53253
+Description: the API and Extension registries for the OpenGL family APIs
+Type: Port
+Status: install ok half-installed

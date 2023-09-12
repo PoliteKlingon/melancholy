@@ -1,0 +1,268 @@
+cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/opt/clion/bin/ninja/linux/ninja -DCMAKE_TOOLCHAIN_FILE=~/vcpkg/scripts/buildsystems/vcpkg.cmake -G Ninja /home/jorge/Documents/school/FI_MUNI/pv112/cvika
+-- Running vcpkg install
+Detecting compiler hash for triplet x64-linux...
+The following packages will be built and installed:
+  * egl-registry[core]:x64-linux -> 2021-11-23
+    glad[core,loader]:x64-linux -> 0.1.34#3
+    glfw3[core]:x64-linux -> 3.3.6
+    glm[core]:x64-linux -> 0.9.9.8#1
+    gtest[core]:x64-linux -> 1.11.0#3
+    imgui[core,glfw-binding,opengl3-binding]:x64-linux -> 1.87
+    lodepng[core]:x64-linux -> 2021-12-04#1
+  * opengl-registry[core]:x64-linux -> 2021-11-17
+    stb[core]:x64-linux -> 2020-09-14#1
+    tinyobjloader[core]:x64-linux -> 2.0.0-rc2#2
+    toml11[core]:x64-linux -> 3.7.0
+  * vcpkg-cmake[core]:x64-linux -> 2022-01-19
+  * vcpkg-cmake-config[core]:x64-linux -> 2022-01-30
+Additional packages (*) will be modified to complete this operation.
+Restored 13 packages from /home/jorge/.cache/vcpkg/archives in 88.91 ms. Use --debug to see more details.
+Starting package 1/13: vcpkg-cmake-config:x64-linux
+Installing package vcpkg-cmake-config[core]:x64-linux...
+Elapsed time for package vcpkg-cmake-config:x64-linux: 580.2 us
+Starting package 2/13: vcpkg-cmake:x64-linux
+Installing package vcpkg-cmake[core]:x64-linux...
+Elapsed time for package vcpkg-cmake:x64-linux: 754.3 us
+Starting package 3/13: egl-registry:x64-linux
+Installing package egl-registry[core]:x64-linux...
+Elapsed time for package egl-registry:x64-linux: 2.102 ms
+Starting package 4/13: opengl-registry:x64-linux
+Installing package opengl-registry[core]:x64-linux...
+Elapsed time for package opengl-registry:x64-linux: 11.69 ms
+Starting package 5/13: glad:x64-linux
+Installing package glad[core,loader]:x64-linux...
+Elapsed time for package glad:x64-linux: 4.181 ms
+Starting package 6/13: glfw3:x64-linux
+Installing package glfw3[core]:x64-linux...
+Elapsed time for package glfw3:x64-linux: 6.716 ms
+Starting package 7/13: glm:x64-linux
+Installing package glm[core]:x64-linux...
+Elapsed time for package glm:x64-linux: 24.41 ms
+Starting package 8/13: gtest:x64-linux
+Installing package gtest[core]:x64-linux...
+Elapsed time for package gtest:x64-linux: 19.8 ms
+Starting package 9/13: imgui:x64-linux
+Installing package imgui[core,glfw-binding,opengl3-binding]:x64-linux...
+Elapsed time for package imgui:x64-linux: 12.71 ms
+Starting package 10/13: lodepng:x64-linux
+Installing package lodepng[core]:x64-linux...
+Elapsed time for package lodepng:x64-linux: 4.838 ms
+Starting package 11/13: stb:x64-linux
+Installing package stb[core]:x64-linux...
+Elapsed time for package stb:x64-linux: 10.05 ms
+Starting package 12/13: tinyobjloader:x64-linux
+Installing package tinyobjloader[core]:x64-linux...
+Elapsed time for package tinyobjloader:x64-linux: 5.312 ms
+Starting package 13/13: toml11:x64-linux
+Installing package toml11[core]:x64-linux...
+Elapsed time for package toml11:x64-linux: 3.212 ms
+
+Total elapsed time: 468 ms
+
+The package glad provides CMake targets:
+
+    find_package(glad CONFIG REQUIRED)
+    target_link_libraries(main PRIVATE glad::glad)
+
+The package glfw3 provides CMake targets:
+
+    find_package(glfw3 CONFIG REQUIRED)
+    target_link_libraries(main PRIVATE glfw)
+
+The package glm provides CMake targets:
+
+    find_package(glm CONFIG REQUIRED)
+    target_link_libraries(main PRIVATE glm::glm)
+
+The package gtest provides CMake targets:
+
+    find_package(GTest CONFIG REQUIRED)
+    target_link_libraries(main PRIVATE GTest::gmock GTest::gtest GTest::gmock_main GTest::gtest_main)
+
+The package imgui provides CMake targets:
+
+    find_package(imgui CONFIG REQUIRED)
+    target_link_libraries(main PRIVATE imgui::imgui)
+
+The package lodepng provides CMake targets:
+
+    # C API
+    find_package(lodepng-c CONFIG REQUIRED)
+    target_link_libraries(main PRIVATE lodepng-c)
+
+    # C++ API
+    find_package(lodepng CONFIG REQUIRED)
+    target_link_libraries(main PRIVATE lodepng)
+
+The package stb is header only and can be used from CMake via:
+
+    find_path(STB_INCLUDE_DIRS "stb.h")
+    target_include_directories(main PRIVATE ${STB_INCLUDE_DIRS})
+
+The package tinyobjloader provides CMake targets:
+
+    find_package(tinyobjloader CONFIG REQUIRED)
+    target_link_libraries(main PRIVATE tinyobjloader::tinyobjloader)
+
+The package toml11 provides CMake targets:
+
+    find_package(toml11 CONFIG REQUIRED)
+    target_link_libraries(main PRIVATE toml11::toml11)
+
+-- Running vcpkg install - done
+-- The CXX compiler identification is GNU 11.2.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+----------------------------------------------------------------------
+Setting up 'PB009' course.
+----------------------------------------------------------------------
+-- The course folder '/home/jorge/Documents/school/FI_MUNI/pv112/cvika/courses/PB009' was not found.
+-- Skipping...
+----------------------------------------------------------------------
+Setting up 'PV112' course.
+----------------------------------------------------------------------
+-- Adding course directory '/home/jorge/Documents/school/FI_MUNI/pv112/cvika/courses/PV112'.
+----------------------------------------------------------------------
+Setting up 'lecture_01' in 'PV112' course (SOLUTION: FALSE).
+----------------------------------------------------------------------
+-- Generating PV112_lecture_01 target.
+-- Dependencies: 'PV112_MODULE;GEOMETRY_MODULE;GUI_MODULE'
+-- Cleaning the cached dependencies.
+-- Indirect Dependencies: 'CORE_MODULE;GLM_MODULE;GUI_MODULE'
+-- Updating the list of all required modules: 'PV112_MODULE;GEOMETRY_MODULE;GUI_MODULE;CORE_MODULE;GLM_MODULE'
+-- Setting the link libraries for 'PV112_lecture_01' to: 'PV112_MODULE;GEOMETRY_MODULE;GUI_MODULE;CORE_MODULE;GLM_MODULE'
+----------------------------------------------------------------------
+The directory for 'lecture_02' was not found.
+----------------------------------------------------------------------
+-- /home/jorge/Documents/school/FI_MUNI/pv112/cvika/courses/PV112/lecture_02
+----------------------------------------------------------------------
+The directory for 'lecture_03' was not found.
+----------------------------------------------------------------------
+-- /home/jorge/Documents/school/FI_MUNI/pv112/cvika/courses/PV112/lecture_03
+----------------------------------------------------------------------
+The directory for 'lecture_04' was not found.
+----------------------------------------------------------------------
+-- /home/jorge/Documents/school/FI_MUNI/pv112/cvika/courses/PV112/lecture_04
+----------------------------------------------------------------------
+The directory for 'lecture_05' was not found.
+----------------------------------------------------------------------
+-- /home/jorge/Documents/school/FI_MUNI/pv112/cvika/courses/PV112/lecture_05
+----------------------------------------------------------------------
+The directory for 'lecture_06' was not found.
+----------------------------------------------------------------------
+-- /home/jorge/Documents/school/FI_MUNI/pv112/cvika/courses/PV112/lecture_06
+----------------------------------------------------------------------
+The directory for 'lecture_07' was not found.
+----------------------------------------------------------------------
+-- /home/jorge/Documents/school/FI_MUNI/pv112/cvika/courses/PV112/lecture_07
+----------------------------------------------------------------------
+The directory for 'lecture_08' was not found.
+----------------------------------------------------------------------
+-- /home/jorge/Documents/school/FI_MUNI/pv112/cvika/courses/PV112/lecture_08
+----------------------------------------------------------------------
+The directory for 'lecture_01_final' was not found.
+----------------------------------------------------------------------
+-- /home/jorge/Documents/school/FI_MUNI/pv112/cvika/courses/PV112/lecture_01_final
+----------------------------------------------------------------------
+The directory for 'lecture_02_final' was not found.
+----------------------------------------------------------------------
+-- /home/jorge/Documents/school/FI_MUNI/pv112/cvika/courses/PV112/lecture_02_final
+----------------------------------------------------------------------
+The directory for 'lecture_03_final' was not found.
+----------------------------------------------------------------------
+-- /home/jorge/Documents/school/FI_MUNI/pv112/cvika/courses/PV112/lecture_03_final
+----------------------------------------------------------------------
+The directory for 'lecture_04_final' was not found.
+----------------------------------------------------------------------
+-- /home/jorge/Documents/school/FI_MUNI/pv112/cvika/courses/PV112/lecture_04_final
+----------------------------------------------------------------------
+The directory for 'lecture_05_final' was not found.
+----------------------------------------------------------------------
+-- /home/jorge/Documents/school/FI_MUNI/pv112/cvika/courses/PV112/lecture_05_final
+----------------------------------------------------------------------
+The directory for 'lecture_06_final' was not found.
+----------------------------------------------------------------------
+-- /home/jorge/Documents/school/FI_MUNI/pv112/cvika/courses/PV112/lecture_06_final
+----------------------------------------------------------------------
+The directory for 'lecture_07_final' was not found.
+----------------------------------------------------------------------
+-- /home/jorge/Documents/school/FI_MUNI/pv112/cvika/courses/PV112/lecture_07_final
+----------------------------------------------------------------------
+The directory for 'lecture_08_final' was not found.
+----------------------------------------------------------------------
+-- /home/jorge/Documents/school/FI_MUNI/pv112/cvika/courses/PV112/lecture_08_final
+----------------------------------------------------------------------
+The directory for 'template' was not found.
+----------------------------------------------------------------------
+-- /home/jorge/Documents/school/FI_MUNI/pv112/cvika/courses/PV112/template
+----------------------------------------------------------------------
+Setting up 'PA199' course.
+----------------------------------------------------------------------
+-- The course folder '/home/jorge/Documents/school/FI_MUNI/pv112/cvika/courses/PA199' was not found.
+-- Skipping...
+----------------------------------------------------------------------
+Setting up 'PA010' course.
+----------------------------------------------------------------------
+-- The course folder '/home/jorge/Documents/school/FI_MUNI/pv112/cvika/courses/PA010' was not found.
+-- Skipping...
+----------------------------------------------------------------------
+Setting up 'PA213' course.
+----------------------------------------------------------------------
+-- The course folder '/home/jorge/Documents/school/FI_MUNI/pv112/cvika/courses/PA213' was not found.
+-- Skipping...
+----------------------------------------------------------------------
+Setting up 'PV227' course.
+----------------------------------------------------------------------
+-- The course folder '/home/jorge/Documents/school/FI_MUNI/pv112/cvika/courses/PV227' was not found.
+-- Skipping...
+----------------------------------------------------------------------
+Adding 'PV112_MODULE' module into the build.
+----------------------------------------------------------------------
+-- Generating a new module name: 'PV112_MODULE'
+-- Target: PV112_MODULE.dll
+-- No files to build.
+-- Cleaning the cached dependencies.
+-- Dependencies: CORE_MODULE;GLM_MODULE;GUI_MODULE
+----------------------------------------------------------------------
+Adding 'GEOMETRY_MODULE' module into the build.
+----------------------------------------------------------------------
+-- Generating a new module name: 'GEOMETRY_MODULE'
+-- Target: GEOMETRY_MODULE.dll
+-- No files to build.
+-- Cleaning the cached dependencies.
+-- Dependencies: CORE_MODULE
+----------------------------------------------------------------------
+Adding 'GUI_MODULE' module into the build.
+----------------------------------------------------------------------
+-- Generating a new module name: 'GUI_MODULE'
+-- Target: GUI_MODULE.dll
+-- No files to build.
+-- Cleaning the cached dependencies.
+-- Dependencies: CORE_MODULE;GLM_MODULE
+----------------------------------------------------------------------
+Adding 'CORE_MODULE' module into the build.
+----------------------------------------------------------------------
+-- Generating a new module name: 'CORE_MODULE'
+-- Target: CORE_MODULE.dll
+-- No files to build.
+-- Cleaning the cached dependencies.
+-- Dependencies: 
+-- Looking for C++ include pthread.h
+-- Looking for C++ include pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+----------------------------------------------------------------------
+Adding 'GLM_MODULE' module into the build.
+----------------------------------------------------------------------
+-- Generating a new module name: 'GLM_MODULE'
+-- Target: GLM_MODULE.dll
+-- No files to build.
+-- Cleaning the cached dependencies.
+-- Dependencies: 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/jorge/Documents/school/FI_MUNI/pv112/cvika/cmake-build-debug
